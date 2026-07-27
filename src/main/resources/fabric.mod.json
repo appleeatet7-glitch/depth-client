@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "depthsclient",
+  "version": "${version}",
+  "name": "Depths Client",
+  "description": "A powerful client mod for Minecraft",
+  "authors": [
+    "appleeatet7-glitch"
+  ],
+  "contact": {
+    "sources": "https://github.com/appleeatet7-glitch/depth-client"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.yourname.depthsclient.DepthsClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabricapi": "*",
+    "minecraft": "~1.21.1"
+  }
+}
